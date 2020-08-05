@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>API | Cima Web Documentación</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <link rel="icon" type="image/png" href="/documentancion-cima-web/icon.png">
+    <meta name="description" content="Documentación de la Pagina Web">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/documentancion-cima-web/assets/css/0.styles.f8476991.css" as="style"><link rel="preload" href="/documentancion-cima-web/assets/js/app.4b6192c1.js" as="script"><link rel="preload" href="/documentancion-cima-web/assets/js/2.5d2cabb1.js" as="script"><link rel="preload" href="/documentancion-cima-web/assets/js/10.10eb8965.js" as="script"><link rel="prefetch" href="/documentancion-cima-web/assets/js/11.09a227ad.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/12.9dc48ced.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/13.98a621ad.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/14.8d966440.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/3.9ff55a27.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/4.6f1fdbba.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/5.32086f15.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/6.91b6ceef.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/7.9de430e0.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/8.2d4347a2.js"><link rel="prefetch" href="/documentancion-cima-web/assets/js/9.54f6b694.js">
+    <link rel="stylesheet" href="/documentancion-cima-web/assets/css/0.styles.f8476991.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/documentancion-cima-web/" class="home-link router-link-active"><!----> <span class="site-name">Cima Web Documentación</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/documentancion-cima-web/tecnologias/" class="nav-link">
+  Tecnologías
+</a></div><div class="nav-item"><a href="/documentancion-cima-web/frontend/" class="nav-link">
+  Frontend
+</a></div><div class="nav-item"><a href="/documentancion-cima-web/backend/" class="nav-link router-link-active">
+  Backend
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/documentancion-cima-web/tecnologias/" class="nav-link">
+  Tecnologías
+</a></div><div class="nav-item"><a href="/documentancion-cima-web/frontend/" class="nav-link">
+  Frontend
+</a></div><div class="nav-item"><a href="/documentancion-cima-web/backend/" class="nav-link router-link-active">
+  Backend
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Backend</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/documentancion-cima-web/backend/" aria-current="page" class="sidebar-link">Introducción</a></li><li><a href="/documentancion-cima-web/backend/base-datos.html" class="sidebar-link">Base de Datos</a></li><li><a href="/documentancion-cima-web/backend/api.html" aria-current="page" class="active sidebar-link">API</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/documentancion-cima-web/backend/api.html#estructura-de-directorio" class="sidebar-link">Estructura de Directorio</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="api"><a href="#api" class="header-anchor">#</a> API</h1> <h2 id="estructura-de-directorio"><a href="#estructura-de-directorio" class="header-anchor">#</a> Estructura de Directorio</h2> <p>La estructura del proyecto es la siguiente, mostrada de manera resumida:</p> <div class="language- extra-class"><pre class="language-text"><code>.
+src
+├── modulos
+│   ├── base-datos
+│   ├── formulario-contacto
+│   ├── recaptcha
+│   └── servicios
+│   │   ├── bitacora
+│   │   ├── link-navegacion
+│   │   ├── multimedia
+│   │   └── pagina
+├── public
+├── rutas
+│   └── index.js
+└── index.js
+
+</code></pre></div><ul><li><code>modulos/base-datos</code>: Se encuentra la conexión a la base de datos.</li> <li><code>modulos/formualario-contacto</code>: Encargado de la función del formualario de contacto.</li> <li><code>modulos/recaptcha</code>: Encargado del funcionamiento de recatcha de google.</li> <li><code>modulos/servicios/bitacora</code>: Encargado de las funciones de la bitácora.</li> <li><code>modulos/servicios/link-navegacion</code>: Encargado de las funciones de los link externos.</li> <li><code>modulos/servicios/pagina</code>: Encargado de las funciones del contenido de la página.</li> <li><code>public</code>: Directorio donde se almacenan las imagenes.</li> <li><code>rutas/index.js</code>: Archivo que administra las rutas de la API.</li> <li><code>index.js</code>: Archivo principal donde se levanta el servidor.</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/documentancion-cima-web/backend/base-datos.html" class="prev">
+        Base de Datos
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/documentancion-cima-web/assets/js/app.4b6192c1.js" defer></script><script src="/documentancion-cima-web/assets/js/2.5d2cabb1.js" defer></script><script src="/documentancion-cima-web/assets/js/10.10eb8965.js" defer></script>
+  </body>
+</html>
